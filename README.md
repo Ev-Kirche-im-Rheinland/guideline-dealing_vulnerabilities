@@ -7,7 +7,6 @@ the ekir vulnerability and patch management policy is defined in this document. 
 
 ## importance
 vulnerability assessment identifies system vulnerabilities before hackers notice them by examining all network components to see if they have weaknesses that cybercriminals could exploit to attack the organization.
-- an independent third-party vendor can help verify the performance of third-party IT products such as email, backup and systems management.
 - careful vulnerability scanning can help ensure regulatory compliance.
 - vulnerability assessment is also required to obtain and maintain security certifications such as ISO 27001.
 - vulnerability scanning prevents data breaches that result in expensive litigation for an organization.
