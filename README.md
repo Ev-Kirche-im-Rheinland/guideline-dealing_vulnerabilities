@@ -1,6 +1,6 @@
 # vulnerability and patch management policy
 
-Version: 1.0.2
+Version: 1.0.1
 
 ## introduction
 the vulnerability and patch management policy of EKiR is outlined in this document. This policy outlines the processes for addressing information security vulnerabilities and for reporting, testing, and implementing security fixes for services and devices connected to the organization.
