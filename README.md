@@ -1,4 +1,4 @@
-# vulnerability and patch management policy (dealing vulnerabilities)
+# vulnerability and patch management policy
 
 Version: 0.2
 
