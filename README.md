@@ -3,7 +3,7 @@
 Version: 1.0.1
 
 ## introduction
-the vulnerability and patch management policy of EKiR is outlined in this document. This policy outlines the processes for addressing information security vulnerabilities and for reporting, testing, and implementing security fixes for services and devices connected to the organization.
+This guideline describes the processes for remediating information security vulnerabilities and implementing security fixes for services and devices connected to the organization.
 
 ## importance:
 - vulnerability assessments identify system vulnerabilities before malicious actors by thoroughly examining all network components to determine if any weaknesses exist that could be exploited.
