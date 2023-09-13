@@ -31,11 +31,11 @@ This guideline describes the processes for remediating information security vuln
 - patches should be deployed as per the schedule below, unless the organization prohibits it.
 
 ### high severity level
-- High severity CVEs are those with a documented CVSS severity greater than 7.0
-- It is a best practice in standards such as PCI DSS to remediate or patch high severity vulnerabilities within 45 days. 
+- High severity CVEs are those with a documented CVSS severity greater than 8.0
+- It is a best practice in standards such as PCI DSS to remediate or patch high severity vulnerabilities within 14 days. 
 ### medium severity level
-- Medium severity CVEs are those with a documented CVSS severity between 4.0 and 6.9
-- It is a best practice to remediate or patch medium severity vulnerabilities within 90 days. 
+- Medium severity CVEs are those with a documented CVSS severity between 4.0 and 7.9
+- It is a best practice to remediate or patch medium severity vulnerabilities within 60 days. 
 ### low severity level
 - Low severity CVEs are those with a documented CVSS severity below 4.0
 - It is a best practice to remediate or patch low severity vulnerabilities within 120 days. 
