@@ -1,6 +1,6 @@
 # vulnerability and patch management policy
 
-Version: 1.0.1
+Version: 1.0.2
 
 ## introduction
 This guideline describes the processes for remediating information security vulnerabilities and implementing security fixes for services and devices connected to the organization.
