@@ -1,4 +1,4 @@
-# vulnerability and patch management policy
+# guideline vulnerability and patch management
 
 Version: 1.0.2
 
