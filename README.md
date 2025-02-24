@@ -29,6 +29,12 @@ This guideline describes the processes for remediating information security vuln
 # software that is no longer supported (eol)
 - Operating systems and application programs for which the manufacturer has discontinued support and which can no longer be updated (end-of-life / end-of-support) must be replaced after 90 days at the latest or the corresponding devices must be isolated from the network (at least logically).
 
+## vulnerability scanning
+- the organization will use a vulnerability scanner to search for any weaknesses and missing patches on its IT systems.
+- the network of the organization will undergo scanning regulary
+- the vendors of servers, PCs, tablets, printers, switches, routers, and peripherals will be checked for firmware patch availability.
+- any missing patches discovered through the vulnerability scanning will be promptly installed, and any vulnerabilities found will be promptly addressed.
+
 ## vulnerability classification:
 - to protect the organization's IT systems from known vulnerabilities, security updates must be applied promptly.
 - patches should be deployed as per the schedule below, unless the organization prohibits it.
@@ -43,12 +49,6 @@ This guideline describes the processes for remediating information security vuln
 ### low severity level
 - Low severity CVEs are those with a documented CVSS severity below 4.0
 - It is a best practice to remediate or patch low severity vulnerabilities within 120 days. 
-
-## vulnerability scanning
-- the organization will use a vulnerability scanner to search for any weaknesses and missing patches on its IT systems.
-- the network of the organization will undergo scanning regulary
-- the vendors of servers, PCs, tablets, printers, switches, routers, and peripherals will be checked for firmware patch availability.
-- any missing patches discovered through the vulnerability scanning will be promptly installed, and any vulnerabilities found will be promptly addressed.
 
 ## references
 - MITRE - CVEs (https://cve.mitre.org/)
