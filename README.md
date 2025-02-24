@@ -20,7 +20,7 @@ This guideline describes the processes for remediating information security vuln
 - system owners are accountable for making sure all software under their jurisdiction is kept up-to-date and patched regularly.
 - the IT department is responsible for ensuring that all relevant software is kept up-to-date and patched on a regular basis.
 
-# software Updates and patching:
+# software updates and patching:
 - all IT systems, whether owned by EKiR or managed by third-party vendors, must have proper licensing, vendor support, and updated and patched operating systems and application software.
 - before using an IT system, third-party vendors must provide evidence of current patching.
 - patches must be thoroughly reviewed before full implementation, as changes may cause unexpected issues.
@@ -31,7 +31,7 @@ This guideline describes the processes for remediating information security vuln
 
 ## vulnerability scanning
 - the organization will use a vulnerability scanner to search for any weaknesses and missing patches on its IT systems.
-- the network of the organization will undergo scanning regulary
+- the network of the organization will undergo scanning regulary. depending on the specific risk, this can be done several times a year or continuously
 - the vendors of servers, PCs, tablets, printers, switches, routers, and peripherals will be checked for firmware patch availability.
 - any missing patches discovered through the vulnerability scanning will be promptly installed, and any vulnerabilities found will be promptly addressed.
 
