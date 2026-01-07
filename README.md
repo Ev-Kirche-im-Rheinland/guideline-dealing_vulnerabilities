@@ -50,7 +50,7 @@ This policy applies to all information systems and resources of EKiR, whether th
 
 ### Very high criticality (CVSS-Score ≥ 9.0)
 
--   Immediate remediation after identification.
+-   Immediate remediation after identification within a maximum of 3 calendar days.
 
 ### High criticality (CVSS-Score 7.0–8.9)
 
