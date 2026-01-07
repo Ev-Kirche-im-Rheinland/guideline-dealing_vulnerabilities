@@ -50,11 +50,29 @@ This policy applies to all information systems and resources of EKiR, whether th
 
 ### Very high criticality (CVSS-Score ≥ 9.0)
 
--   Immediate remediation after identification within a maximum of 3 calendar days.
+| Criterion | Remediation Deadline | Escalation | Examples |
+|-----------|---|---|---|
+| **Internet-Accessible** (DMZ, Cloud, Remote Access) | **3 Days** | Management + Security Team, daily status | Pre-auth RCE, active exploits, CISA-KEV |
+| **Internal, but Core Infrastructure** (AD, Email, File-Server, Firewall) | **5 Days** | Management, daily status | Domain Admin takeover, critical data exposure |
+| **Internal, Standard System** (Desktop PC, Printer, configurable) | **7 Days** | Team Lead, daily status | Local privilege escalation, DoS |
+| **Legacy/EOL Systems** (no patch available) | **3 Days** (Workaround/Mitigation) | CISO decision | Must be isolated or decommissioned |
+
+**Escalation Triggers:** If deadline is missed:
+- Day 1 after deadline: Email to system owner + manager
+- Day 2: Escalation to department head
+- Day 3: CISO involvement + management report
+- Day 5: Automatic quarantine/shutdown (with approval)
 
 ### High criticality (CVSS-Score 7.0–8.9)
 
--   Remediation within a maximum of 10 calendar days.
+| Criterion | Remediation Deadline | Escalation | Examples |
+|-----------|---|---|---|
+| **Internet-Accessible** | **14 Days** | Weekly Status Report | RCE with authentication, critical data leak |
+| **Internal, Core Infrastructure** | **21 Days** | Bi-weekly Review | Admin account risk, SMB/RDP exploitation |
+| **Internal, Standard System** | **30 Days** | Monthly Review | Kernel exploit, malware vector |
+| **Legacy/EOL Systems** | **14 Days** (Workaround/Isolation) | CISO decision | Compensating controls required |
+
+**Escalation Triggers:** Similar to CRITICAL (Day 1, 2, 3, 5 after deadline)
 
 ### Medium criticality (CVSS-Score 4.0–6.9)
 
