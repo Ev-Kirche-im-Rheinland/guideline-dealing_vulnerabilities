@@ -48,20 +48,25 @@ This policy applies to all information systems and resources of EKiR, whether th
 -   Patches should be deployed as per the schedule below, unless the organization prohibits it.
 -   Vulnerabilities are those that have been identified or classified as such by the BSI (Federal Office for Information Security) or the CVSS (Common Vulnerability Scoring System).
 
-### High Severity Level
+### Very high criticality (CVSS-Score ≥ 9.0)
 
--   High severity CVEs are those with a documented CVSS severity greater than 8.0.
--   High severity vulnerabilities must be eliminated promptly, but no later than 10 working days after the publication of a security update relevant to this vulnerability.
+-   Immediate remediation after identification.
 
-### Medium Severity Level
+### High criticality (CVSS-Score 7.0–8.9)
 
--   Medium severity CVEs are those with a documented CVSS severity between 4.0 and 7.9.
--   It is a best practice to remediate or patch medium severity vulnerabilities within 60 days.
+-   Remediation within a maximum of 10 calendar days.
 
-### Low Severity Level
+### Medium criticality (CVSS-Score 4.0–6.9)
 
--   Low severity CVEs are those with a documented CVSS severity below 4.0.
--   It is a best practice to remediate or patch low severity vulnerabilities within 120 days.
+-   Remediation within a maximum of 30 calendar days
+
+### Low criticality (CVSS-Score 0.1–3.9)
+
+-   Remediation as part of regular patch cycles.
+
+### Handling of Deadline Exceedances
+
+-   In case of exceeding the risk thresholds/deadlines, these must be documented simultaneously and approved by the management board
 
 ## References
 
