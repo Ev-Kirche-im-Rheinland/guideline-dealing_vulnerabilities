@@ -76,10 +76,19 @@ This policy applies to all information systems and resources of EKiR, whether th
 
 ### Medium criticality (CVSS-Score 4.0–6.9)
 
--   Remediation within a maximum of 30 calendar days
+| Criterion | Remediation Deadline | Escalation | Examples |
+|-----------|---|---|---|
+| **Internet-Accessible** | **60 Days** | Quarterly Report | XSS, SQLi without direct data access |
+| **Internal, Core Infrastructure** | **90 Days** | Quarterly Review | Denial of Service, unencrypted services |
+| **Internal, Standard System** | **120 Days** | Quarterly Review | Information Disclosure (non-critical) |
+| **Legacy/EOL Systems** | **60 Days** (Evaluation for Replacement) | Quarterly Review | Increase priority for EOL planning |
 
 ### Low criticality (CVSS-Score 0.1–3.9)
 
+| Criterion | Remediation Deadline | Escalation | Examples |
+|-----------|---|---|---|
+| **All System Types** | **180 Days** (6 months) | Annual Audit | Best practice deviations, info-disclosure |
+| **Legacy/EOL Systems** | **180 Days** (or with EOL planning) | Annual Audit | Not security-critical |
 -   Remediation as part of regular patch cycles.
 
 ### Handling of Deadline Exceedances
